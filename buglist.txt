@@ -1,0 +1,8 @@
+Bug List!
+
+1. Does not detect properly if the list has values. isEmpty() still returns true
+2. AddBack() doesn't properly add to the back of the list. Kinda psuedo adds the values to the front instead. Still adds a value however.
+3. RemoveBack() Doesn't remove the back function at all, it removes another value.
+4. RemoveFront() Doesn't remove the front at all, it seems to remove the back.
+5. Both RemoveBack() and RemoveFront() fail to keep track of their each individual sizes
+6. 
